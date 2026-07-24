@@ -6,15 +6,15 @@ Built a deep learning project that classifies breast tumors as **Benign** or **M
 
 ## Features
 
-- Data preprocessing with Pandas and Scikit-learn
+- Data preprocessing with Pandas and Scikit-learn.
 
-- Feedforward Neural Network using TensorFlow/Keras
+- Feedforward Neural Network using TensorFlow/Keras.
 
-- Binary classification (Benign vs. Malignant)
+- Binary classification (Benign vs. Malignant).
 
-- Training and validation accuracy/loss visualization
+- Training and validation accuracy/loss visualization.
 
-- Confusion matrix for model evaluation
+- Confusion matrix for model evaluation.
 
 
 
@@ -22,45 +22,40 @@ Built a deep learning project that classifies breast tumors as **Benign** or **M
 
 ## Technologies Used
 
-- Python
-
-- TensorFlow / Keras
-
-- NumPy
-
-- Pandas
-
-- Matplotlib
-
-- Scikit-learn
+- Python.
+- TensorFlow / Keras.
+- NumPy.
+- Pandas.
+- Matplotlib.
+- Scikit-learn.
 
 ---
 
 ## Dataset
 
-- Breast Cancer Wisconsin Dataset
+- Breast Cancer Wisconsin Dataset.
 
 - Features: 30 numerical features extracted from digitized images of breast masses.
 
 - Target:
 
-  - **0** → Benign
+  - **0** → Benign.
 
-  - **1** → Malignant
+  - **1** → Malignant.
     
 ---
 
 ## Model Architecture
 
-- Input Layer: 30 features
+- Input Layer: 30 features.
 
-- Hidden Layer: Dense (ReLU)
+- Hidden Layer: Dense (ReLU).
 
-- Output Layer: Dense (Sigmoid)
+- Output Layer: Dense (Sigmoid).
 
-- Optimizer: Adam
+- Optimizer: Adam.
 
-- Loss Function:   Sparse Categorical Crossentropy
+- Loss Function:   Sparse Categorical Crossentropy.
 
 
 ---
@@ -114,20 +109,12 @@ python main.py
 ```
 
 Breast-Cancer-Classification-TensorFlow/
-
 │
-
 ├── images/
-
 │   ├── accuracy.png
-
 │   ├── loss.png
-
 │   └── confusion_matrix.png
-
 ├── data.csv
-
 ├── main.py
-
 └── README.md
 
